@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <form action="/action_page.php">
+    <div class="input-section">
+        <label for="category-select">Category:</label>
+        <select id="category-select">
+            <option value="Shopping">Shopping</option>
+            <option value="Cafeteria">Cafeteria</option>
+            <option value=Dominos">Dominos</option>
+            <option value="Women Cloths">Women cloths</option>
+            <option value="Men Cloths">Mens cloth</option>
+            <option value="Kids store">kids store</option>
+        </select>
+        <label for="amount-input">Amount:</label>
+        <input type="number" id="amount-input" required>
+        <label for="date-input">Date:</label>
+        <input type="date" id="date-input" required>
+        <input type="submit">
+    </div>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
